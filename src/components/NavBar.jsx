@@ -1,7 +1,9 @@
+
 import { NavLink } from "react-router-dom";
 
 export const NavBar = () => {
   return (
+    
     <nav className="navbar navbar-expand-lg navbar-dark ">
       <div className="container-fluid">
         <NavLink className="navbar-brand" to="/">
@@ -20,9 +22,6 @@ export const NavBar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <NavLink className="nav-link" aria-current="page" to="/menu">
-              Nosotros
-            </NavLink>
             <NavLink className="nav-link" to="/Postres">
               Postres
             </NavLink>
@@ -32,6 +31,10 @@ export const NavBar = () => {
             <NavLink className="nav-link" to="/Reserva">
               Reserva
             </NavLink>
+            <NavLink className="nav-link" aria-current="page" to="/menu">
+            Inicia Sesión
+            </NavLink>
+            
           </div>
         </div>
       </div>

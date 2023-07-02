@@ -28,7 +28,7 @@ export const Principal = () => {
               de chocolate. ¡Puro placer en cada bocado!
             </p>
             <div>
-              <button>¡Pruebla!</button>
+              <button>¡Prueblo!</button>
             </div>
           </div>
 

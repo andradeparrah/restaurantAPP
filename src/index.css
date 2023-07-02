@@ -112,7 +112,35 @@ input {
     color: burlywood;
     text-align: center;
     padding: 50px;
-    max-width: 100%;
+
+    border-radius: 10px;
+  }
+
+  .gridContainer {
+
+    column-gap: 50px;
+    grid-template-columns:  35vh 35vh;
+    grid-template-rows: 100vh ;
+  }
+
+  .gridItem {
+    border: solid 1px;
+    border-radius: 10px;
+    transition: all 0.3s;
+  }
+
+  .gridItem:hover {
+    transform: scale(1.02);
+  }
+}
+@media screen and (min-width: 1000px) {
+
+  .banner {
+    background-image: url(https://cdn.leonardo.ai/users/9a01fe03-e38d-4147-9504-334e27fe8920/generations/349b7784-6908-4831-9ced-2fc9e53fc4ec/DreamShaper_v5_A_restaurant_with_a_dark_style_Classes_on_mixol_1.jpg);
+    color: burlywood;
+    text-align: center;
+    padding: 50px;
+
     border-radius: 10px;
   }
 
@@ -120,7 +148,7 @@ input {
 
     column-gap: 50px;
     grid-template-columns:  35vh 35vh 35vh 35vh;
-    grid-template-rows: 80vh ;
+    grid-template-rows: 70vh ;
   }
 
   .gridItem {

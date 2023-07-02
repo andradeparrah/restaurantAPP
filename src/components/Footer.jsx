@@ -3,7 +3,7 @@ export const Footer = () => {
     <div className="footer">
         <ul className="">
             <li>Clientes</li>
-            <li>Estamos ubicados en: Ñuñoa</li>
+            <li>Estamos ubicados en: </li>
         </ul>
         <ul>
         {/* hacer un boton para que te lleve a ws/ig/ */}
