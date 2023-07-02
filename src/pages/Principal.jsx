@@ -50,7 +50,7 @@ export const Principal = () => {
           </div>
 
           <div className="gridItem">
-            <img src="../src/assets/pictures/roca.png" alt="" />
+            <img src="/public/assets/pictures/roca.png" alt="Chef" />
             <p className="title">Chef Ejecutivo</p>
             <p className="description">Jordi Roca</p>
             <hr />
@@ -66,7 +66,7 @@ export const Principal = () => {
           </div>
 
           <div className="gridItem">
-            <img src="src/assets/pictures/FRANCESCO MASCIULLO.png" alt="" />
+            <img src="/public/assets/pictures/FRANCESCO MASCIULLO.png" alt="FcoMas" />
             <p className="title">Barista</p>
             <p className="description">Francesco Masciullo</p>
             <hr />
