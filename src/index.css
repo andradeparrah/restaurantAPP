@@ -3,10 +3,10 @@ nav {
   color: burlywood;
 }
 
-.navbar-brand{
+.navbar-brand {
   color: burlywood;
 }
-.nav-link{
+.nav-link {
   color: burlywood;
 }
 /* main */
@@ -15,7 +15,7 @@ main {
   background-color: black;
 }
 
-.description{
+.description {
   font-size: 26px;
 }
 
@@ -27,7 +27,7 @@ main {
   border-radius: 10px;
 }
 
-img {
+.PincipalCard {
   width: 150px;
   height: 150px;
   padding: 10px;
@@ -83,16 +83,14 @@ input {
   color: burlywood;
   text-align: center;
   padding: 50px;
-  margin: 10px;
   border-radius: 10px;
 }
 
 .Postres {
-  background-image: url(./assets/pictures/dessertOne.jpeg);
+  background-image: url(https://cdn.leonardo.ai/users/9a01fe03-e38d-4147-9504-334e27fe8920/generations/46f2bea9-e4f7-4483-bb7b-69fd7310686a/DreamShaper_v5_desserts_with_a_dark_style_on_a_restaurant_1.jpg);
   color: burlywood;
   text-align: center;
   padding: 50px;
-  margin: 10px;
   border-radius: 10px;
 }
 
@@ -100,27 +98,25 @@ input {
 
 .footer {
   background-color: black;
-  display: flex;
   align-items: center;
   color: burlywood;
+  padding-top: 50px;
+  text-align: center;
 }
 
 @media screen and (min-width: 800px) {
-
   .banner {
     background-image: url(https://cdn.leonardo.ai/users/9a01fe03-e38d-4147-9504-334e27fe8920/generations/349b7784-6908-4831-9ced-2fc9e53fc4ec/DreamShaper_v5_A_restaurant_with_a_dark_style_Classes_on_mixol_1.jpg);
     color: burlywood;
     text-align: center;
     padding: 50px;
-
     border-radius: 10px;
   }
 
   .gridContainer {
-
     column-gap: 50px;
-    grid-template-columns:  35vh 35vh;
-    grid-template-rows: 100vh ;
+    grid-template-columns: 35vh 35vh;
+    grid-template-rows: 100vh;
   }
 
   .gridItem {
@@ -132,32 +128,51 @@ input {
   .gridItem:hover {
     transform: scale(1.02);
   }
+  .footerimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+  }
+  
+
 }
 @media screen and (min-width: 1000px) {
-
   .banner {
     background-image: url(https://cdn.leonardo.ai/users/9a01fe03-e38d-4147-9504-334e27fe8920/generations/349b7784-6908-4831-9ced-2fc9e53fc4ec/DreamShaper_v5_A_restaurant_with_a_dark_style_Classes_on_mixol_1.jpg);
     color: burlywood;
     text-align: center;
     padding: 50px;
-
     border-radius: 10px;
   }
 
   .gridContainer {
-
     column-gap: 50px;
-    grid-template-columns:  35vh 35vh 35vh 35vh;
-    grid-template-rows: 70vh ;
-  }
-
-  .gridItem {
-    border: solid 1px;
-    border-radius: 10px;
-    transition: all 0.3s;
-  }
-
-  .gridItem:hover {
-    transform: scale(1.02);
+    grid-template-columns: 35vh 35vh 35vh 35vh;
+    grid-template-rows: 60vh;
   }
 }
+
+.JordiRoca {
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.footerimg{
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+}
+
+
+ul li {
+  list-style: none;
+}
+
+a{
+  color: burlywood;
+  text-decoration: none;
+}
+
+

@@ -1,3 +1,5 @@
+import { PrincipalCard } from "../components/PrincipalCard";
+
 export const Principal = () => {
   return (
     <main>
@@ -7,77 +9,50 @@ export const Principal = () => {
           ¡Te damos la más dulce bienvenida a nuestro café! Aquí es donde los
           sueños se vuelven postres y los antojos se hacen realidad. Sumérgete
           en un ambiente acogedor y encantador mientras te deleitas con una
-          amplia selección de delicias dulces y platos exquisitos. Nuestro
-          equipo de apasionados pasteleros han creado con amor obras maestras
-          dulces. ¡Ven y únete a nosotros en este paraíso azucarado donde los
-          momentos dulces se convierten en recuerdos inolvidables!
+          amplia selección de delicias dulces y platos exquisitos.
         </p>
 
         <section class="gridContainer">
-          <div className="gridItem">
-            <img
-              src="https://cdn.leonardo.ai/users/9a01fe03-e38d-4147-9504-334e27fe8920/generations/47d7fca5-6dd9-4c68-803b-d2fd50b30647/DreamShaper_v5_A_restaurant_with_a_dark_style_Desserts_3.jpg"
-              alt=""
-            />
-            <p className="title">Postre del Mes</p>
-            <p className="description">Mousse de Chocolate</p>
-            <hr />
-            <p>
-              ¡Descubre nuestra deliciosa torta de chocolate! Con un bizcocho
-              esponjoso y húmedo, cubierto con una irresistible capa de ganache
-              de chocolate. ¡Puro placer en cada bocado!
-            </p>
-            <div>
-              <button>¡Prueblo!</button>
-            </div>
-          </div>
+          <PrincipalCard
+            img="https://cdn.leonardo.ai/users/9a01fe03-e38d-4147-9504-334e27fe8920/generations/47d7fca5-6dd9-4c68-803b-d2fd50b30647/DreamShaper_v5_A_restaurant_with_a_dark_style_Desserts_3.jpg"
+            titulo={"Postre del Mes"}
+            descripcion={"Mousse de Chocolate"}
+            parrafo={
+              "¡Descubre nuestra deliciosa torta de chocolate! Con un bizcocho esponjoso y húmedo."
+            }
+            tipo={"alimento"}
+          />
 
-          <div className="gridItem">
-            <img
-              src="https://cdn.leonardo.ai/users/9a01fe03-e38d-4147-9504-334e27fe8920/generations/992e94bb-a1a4-4774-82f5-8ac2465e682d/DreamShaper_v5_A_latte_with_a_dark_style_0.jpg"
-              alt=""
-            />
-            <p className="title">Café del Mes</p>
-            <p className="description">Latte Caramelo</p>
-            <hr />
-            <p>
-              Disfruta de nuestro exquisito latte: cremoso, equilibrado y lleno
-              de sabor. ¡Una experiencia única en cada sorbo!
-            </p>
-            <div>
-              <button>¡Prueblo!</button>
-            </div>
-          </div>
+          <PrincipalCard
+            img="https://cdn.leonardo.ai/users/9a01fe03-e38d-4147-9504-334e27fe8920/generations/992e94bb-a1a4-4774-82f5-8ac2465e682d/DreamShaper_v5_A_latte_with_a_dark_style_0.jpg"
+            titulo={"Café del Mes"}
+            descripcion={"Latte Caramelo"}
+            parrafo={
+              "Disfruta de nuestro exquisito latte: cremoso, equilibrado y lleno de sabor. ¡Una experiencia única en cada sorbo!"
+            }
+            tipo={"alimento"}
+          />
 
-          <div className="gridItem">
-            <img src="/public/assets/pictures/roca.png" alt="Chef" />
-            <p className="title">Chef Ejecutivo</p>
-            <p className="description">Jordi Roca</p>
-            <hr />
-            <p>
-              Él es el responsable de lo dulce de uno de los mejores
-              restaurantes del mundo, El Celler de Can Roca. Es la mente que da
-              forma a postres, pasteles. El artífice, también, de ElevenCoffee,
-              una de los cafés más interesantes.
-            </p>
-            <div>
-              <button>¡Trayectoria!</button>
-            </div>
-          </div>
+          <PrincipalCard
+            img="https://www.finedininglovers.com/sites/g/files/xknfdk626/files/styles/im_square_33_fallback/public/Jordi-Roca.jpg?itok=-pymq3TS"
+            titulo={"Chef Ejecutivo"}
+            descripcion={"Jordi Roca"}
+            parrafo={
+              "Él es el responsable de lo dulce de uno de los mejores restaurantes del mundo, El Celler de Can Roca."
+            }
+            tipo={"¡Trayectoria!"}
+          />
 
-          <div className="gridItem">
-            <img src="/public/assets/pictures/FRANCESCO MASCIULLO.png" alt="FcoMas" />
-            <p className="title">Barista</p>
-            <p className="description">Francesco Masciullo</p>
-            <hr />
-            <p>
-              Campeon italiano de barismo en el año 2017. Francesco sabe cuánto
-              aporta el origen al perfil de sabor y aroma de un café.
-            </p>
-            <div>
-              <button>¡Trayectoria!</button>
-            </div>
-          </div>
+          <PrincipalCard
+            img="https://victoria.mediaplanet.com/app/uploads/sites/19/2019/12/tim_wendelboe-576x486.jpg" alt="FcoMas" 
+            titulo={"Barista"}
+            descripcion={"Tim Wendelboe"}
+            parrafo={
+              "Campeon mundial de barismo en el año 2004. “No era tan fácil obtener información sobre el café”."
+            }
+            tipo={"¡Trayectoria!"}
+          />
+
         </section>
       </div>
     </main>

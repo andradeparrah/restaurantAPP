@@ -13,9 +13,14 @@ export const Reserva = () => {
       <hr />
       <input type="number" name="" id="" placeholder="¿Mesa para cuantos?" />
       <hr />
+      <input type="text" placeholder="Comentario adicional" />
+      <hr />
       <input type="date" name="" id="" />
       <hr />
       <button>Reserva</button>
+
+
     </div>
+
   );
 };
