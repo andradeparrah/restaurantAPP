@@ -1,7 +1,7 @@
 export const Footer = () => {
   return (
     <div className="footer">
-      <ul for="brand" class="brand">
+      <ul htmlFor="brand" className="brand">
         <li>
           <a href="#">
             <img
