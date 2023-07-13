@@ -147,7 +147,7 @@ input {
 
   .gridContainer {
     column-gap: 50px;
-    grid-template-columns: 35vh 35vh 35vh 35vh;
+    grid-template-columns: 42vh 42vh 42vh 42vh;
     grid-template-rows: 60vh;
   }
 }
@@ -187,4 +187,30 @@ td, th {
 }
 tr:nth-child(even),table.list thead>tr {
   background-color:  rgba(233, 255, 155, 0.5);
+}
+
+@media screen and (max-width: 600px){
+  table {
+    width:100%;
+}
+thead {
+  display: none;
+}
+tr:nth-of-type(2n) {
+  background-color: inherit;
+}
+tr td:first-child {
+  font-weight:bold;
+  font-size:1.3em;
+}
+tbody td {
+  display: block;
+  text-align:center;
+}
+tbody td:before {
+  content: attr(data-th);
+  display: block;
+  text-align:center;
+}
+
 }
