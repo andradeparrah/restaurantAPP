@@ -175,4 +175,16 @@ a{
   text-decoration: none;
 }
 
+table{
+  text-align: center;
+  margin: auto;
+}
 
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+  background-color:  rgba(233, 255, 155, 0.5);
+}

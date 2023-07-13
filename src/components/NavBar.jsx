@@ -28,11 +28,8 @@ export const NavBar = () => {
             <NavLink className="nav-link" to="/Cafe">
               Cafés
             </NavLink>
-            <NavLink className="nav-link" to="/Reserva">
-              Reserva
-            </NavLink>
             <NavLink className="nav-link" aria-current="page" to="/CrudApp">
-            Inicia Sesión
+            Reserva
             </NavLink>
             
           </div>
